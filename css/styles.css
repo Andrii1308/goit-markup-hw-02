@@ -1,0 +1,75 @@
+/* Main color:  #FFFFFF */
+/* First color:  #2E2F42 */
+/* Second color:  #F4F4FD */
+/* Elements color: #4D5AE5  */
+/* Hero button focus color: #404BBF  */
+/* Primary text color(p): #434455 */
+
+
+
+:root{
+    --primary-bg-color: #ffffff;
+    --first-bg-color: #2E2F42;
+    --second-bg-color: #F4F4FD;
+    --primary-text-color: #434455;
+    --first-text-color: #2E2F42;
+    --second-text-color: #ffffff;
+    --header-hover-color: #404BBF;
+}
+
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    color: var(--primary-text-color);
+
+}
+/* Логотип */
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+/* Навігація */
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-list-item {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.02em;
+    color: var(--first-text-color);
+}
+
+.navigation-list-item:hover {
+    color: var(--header-hover-color)
+}
+
+/* Контакти */
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.contacts-list-item:hover {
+    color: var(--header-hover-color)
+}
