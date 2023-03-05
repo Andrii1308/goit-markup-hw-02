@@ -205,6 +205,7 @@ body {
 .filter-button {
     color: var(--order-service-button-color);
     background-color: var(--second-bg-color);
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
