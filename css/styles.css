@@ -238,7 +238,7 @@ body {
 
 }
 
-.filter-item-description {
+.filter-list-item-description {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
