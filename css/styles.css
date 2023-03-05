@@ -66,6 +66,10 @@ body {
 
 /* Контакти */
 
+.address {
+    font-style: normal;
+}
+
 .contacts-list-item {
     font-style: normal;
     font-weight: 400;
@@ -121,6 +125,15 @@ body {
     letter-spacing: 0.02em;
 }
 
+.features-list-item-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
 /* Що ми робимо */
 
 .products-heading {
@@ -137,6 +150,7 @@ body {
 /* Наша команда */
 
 .team-heading {
+    color: var(--first-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -146,7 +160,7 @@ body {
     text-transform: capitalize;
 }
 
-.team-list-heading {
+.team-list-item-heading {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
