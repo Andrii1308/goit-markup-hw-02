@@ -229,11 +229,11 @@ body {
 }
 
 .filter-item-heading {
-    color: var(--primary-text-color);
+    color: var(--first-bg-color);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 
 }
